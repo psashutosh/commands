@@ -1,0 +1,51 @@
+Commands for local repo
+--------------------------------------
+git init
+git status
+git log
+git add <filename>
+git commit -m <message>
+git remote add origin <origin-url>
+git remote set-url origin <origin-url>
+git push -u origin <branch name>
+git branch
+git checkout -b <new_branch_name>
+git checkout <branchName>
+
+
+for fork repo
+--------------------------------
+git clone <forked repo url>
+git diff
+git diff > <filename>.diff
+git reset --hard HEAD
+git show HEAD
+git apply <filename>.diff
+git checkout -b <branchName>
+git add <changedfilename>
+git commit -s -v
+git remote set-url origin <url>
+git push -u origin <branchName>
+
+
+for rebase repo
+---------------------------------
+git branch <branchName>
+git remote set-url origin <parentRepo url>
+git pull origin --rebase
+'''make changes'''
+git add .
+git commit -m "commit msg"
+git remote set-url origin 'forked repo url'
+git push -f
+
+
+for amend
+-----------------------------------
+'''make changes'''
+git add .
+git commit --amend
+git push -f 
+
+
+

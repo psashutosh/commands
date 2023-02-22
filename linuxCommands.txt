@@ -1,0 +1,102 @@
+Linux Basic Commands
+------------------------
+ls - List all file and Directories
+ls --ll - List all file and Directories with some details 
+ls --lh - List all files and Directories in human readable format
+ls -a  - List all files with hiddens files
+
+cd  - Change Directories
+cd . - current Directories
+cd .. - One back Directories
+cd / - root Directories
+
+mkdir <dirname> - make Directories
+rmdir <dirname> - remove empty Directories.
+rm -rf <dirname> - remove dirname
+rm <filename>  - remove file
+
+vim <filename> - open file in vim editor
+to edit in file - press(esc) then i
+for save the file - press(esc) then : wq
+for quit without save - press(esc) then :q!
+
+cat <filename> - for open file only read.
+
+touch <filename> create file.
+
+
+cp srcfilename des - Copy srcfile to destfile
+cp -r src des - copy all file at src path to dest path.
+
+mv src des - Move Directories from src to dest.
+mv src/* des - To move all files of srcDir to destDir.
+
+command --help - Find the manual of command
+
+
+change Permission
+-------------------------------------
+d rwx  rwx    rwx
+  user group  other
+
+r-read
+w-write
+x-executable
+
+chmod +x - add read permission to all (user,group,other).
+
+give the permission in numerical form ex :- 700;
+
+7  0  0
+U  G  O - user,group,other
+
+r w x
+-----
+0 0 0
+0 0 1
+0 1 0
+0 1 1
+1 0 0
+1 0 1
+1 1 0
+1 1 1
+
+-------------------------------
+man cmd - Manual of command
+
+export VARNAME  = value - creating enviroment variable.
+echo $VARNAME - print the value of VARNAME.
+
+ps - Background process details
+ps -aux 
+PID - Process ID
+
+--------------------------
+file path iname "filename" - Search file from any path
+grep -r "string" <filename>.
+
+cat /etc/os-release -  show the os details.
+
+
+-------------------------------------
+tar :- Untar any file 
+tar -xvf filename.tar.gz
+
+
+------------------
+wget <link> - Dowload from link.
+
+unzip <filename> - to unzip file.
+
+-------------------------------
+add user <username> - Add user
+
+---------------------------------
+
+ssh command
+--------------
+for accessing any machine
+
+ssh useranme@ip - accessing local machine
+ssh -i <pemfile> ubuntu@ip.
+

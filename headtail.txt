@@ -1,0 +1,21 @@
+Commands for local repo
+--------------------------------------
+git init
+git status
+git log
+git add <filename>
+git commit -m <message>
+git remote add origin <origin-url>
+git remote set-url origin <origin-url>
+git push -u origin <branch name>
+git branch
+git checkout -b <new_branch_name>
+for amend
+-----------------------------------
+'''make changes'''
+git add .
+git commit --amend
+git push -f 
+
+
+
