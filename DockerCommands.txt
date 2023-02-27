@@ -1,0 +1,32 @@
+-------------Docker basic Command---------------------
+docker images :- List all the images
+dokcer ps :- List all the container present in the machine
+Docker build -t <imageName> -f <DockerFile> . :- Build any docker image.
+Docker run -it --name <conatinerName> <imageName> bash :- Create Conatiner 
+Docker start <conatinerName> :- Start the conatiner.
+Docker stop <ConatinerName> :-Stop the conatainer.
+Docker rmi <imageName> :- Delete image.
+Docker rm <conatainerName> Delete Conatiner.
+docker pull :- Dowload the images
+docker push :- push the docker images to hub.
+docker login -u <username>:- Login user 
+docker tag <renamed Name> <oldname> :- rename the image
+docker run -it -v <exactpath>:Conatainer <exactpath> <conatinerName> <imagename> bash :- to create shared file between host and conatiner
+docker search <imagename>
+
+
+
+
+----------------Docker images command--------------
+vim Dockerfile :- Create Docker file.
+----Content--------
+FROM ubuntu :- Base image.
+MAINTAINER <maintainer name> :- Who is the mainetainer of Conatainer.
+RUN <command execute time of conatiner create> : - Put commands in this line which are executed on creation time of conatainer.
+ENV <variable Name> :- Create variable name.
+WORKDIR <dirname> :- specify working dirname 
+ADD :- copy file from host to conatiner
+
+
+
+
