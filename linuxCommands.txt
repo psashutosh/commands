@@ -72,7 +72,7 @@ ps -aux
 PID - Process ID
 
 --------------------------
-file path iname "filename" - Search file from any path
+find path iname "filename" - Search file from any path
 grep -r "string" <filename>.
 
 cat /etc/os-release -  show the os details.
@@ -99,4 +99,22 @@ for accessing any machine
 
 ssh useranme@ip - accessing local machine
 ssh -i <pemfile> ubuntu@ip.
+
+------------------------------------------------
+whereis cmd :- this command tell us where the command defined
+whatis cmd :- Define the command work, what command really does.
+whichis cmd :- give path of the command
+whoami :- show currently logged user.
+bc :- Calculator.
+info cmd :- gives some info about command
+head filename.txt:- gives first 10 lines / head --lines=13 filename.txt :- gives the first 13 lines.
+tail filename.txt :- gives last 10 lines of file. / tail --lines=2 filename.txt :- gives last 3 lines of file.
+tac ;- print the file Content
+df :- disk usage
+du :- Estimated file space usage
+alias q="ls -l" :- create the alias of any big or complex command.
+uname :- gives the name of OS.
+sudo :- superuser
+
+
 
