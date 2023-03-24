@@ -43,7 +43,7 @@ r-read
 w-write
 x-executable
 
-chmod +x - add read permission to all (user,group,other).
+chmod +x - add executable permission to all (user,group,other).
 
 give the permission in numerical form ex :- 700;
 
