@@ -110,11 +110,10 @@ info cmd :- gives some info about command
 head filename.txt:- gives first 10 lines / head --lines=13 filename.txt :- gives the first 13 lines.
 tail filename.txt :- gives last 10 lines of file. / tail --lines=2 filename.txt :- gives last 3 lines of file.
 tac ;- print the file Content
-df :- disk usage
-du :- Estimated file space usage
+du :- disk usage
+df :- Estimated file space usage
 alias q="ls -l" :- create the alias of any big or complex command.
 uname :- gives the name of OS.
 sudo :- superuser
-
 
 
