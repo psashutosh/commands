@@ -1,6 +1,6 @@
 Given :- 
 #Genvisio board DPMAC.3
-#Bonyrigg boear DPMAC.5
+#Bonyrigg board DPMAC.5
 
 Steps for End-to End
 
